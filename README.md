@@ -1,2 +1,2 @@
 # fullstack-engineering-journey
-A comprehensive collection of exercises, mini-projects, and full-stack applications built while learning and mastering modern web development technologies.
+A comprehensive collection of tasks and mini-projects built while learning and mastering modern web development technologies.
