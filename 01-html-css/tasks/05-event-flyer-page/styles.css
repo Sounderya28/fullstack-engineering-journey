@@ -16,6 +16,10 @@ body {
     text-align: center;
 }
 
+img {
+    width: 50%;
+}
+
 header {
     padding: 10px;
     line-height: 40px;
@@ -26,7 +30,7 @@ main {
     align-items: flex-start;
     justify-content: center;
     gap: 10%;
-    padding: 50px;
+    padding: 2rem;
 }
 
 .highlight-heading {
