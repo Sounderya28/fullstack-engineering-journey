@@ -27,11 +27,11 @@
           required
         />
         <label for="position">Position:</label>
-        <select for="position">
-          <option>Select a position</option>
-          <option>Developer</option>
-          <option>Designer</option>
-          <option>Manager</option>
+        <select id="position" required>
+          <option selected disabled value="">Select a position</option>
+          <option value="developer">Developer</option>
+          <option value="designer">Designer</option>
+          <option value="manager">Manager</option>
         </select>
         <fieldset>
           <legend>Availability:</legend>
@@ -51,7 +51,13 @@
           <label for="part-time">Part-Time</label>
         </fieldset>
         <label for="reason">Why do you want this job?</label>
-        <textarea id="reason" name="reason" rows="5" cols="50"></textarea>
+        <textarea
+          id="reason"
+          name="reason"
+          rows="5"
+          cols="50"
+          required
+        ></textarea>
         <button type="submit">Submit Application</button>
       </div>
     </main>
