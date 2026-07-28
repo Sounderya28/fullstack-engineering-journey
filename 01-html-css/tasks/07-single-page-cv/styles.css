@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 5%;
+}
+
+h3 {
+    color: green;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+h4 {
+    color: rgb(123, 123, 201)
+}
+
+#experience article:nth-of-type(2) {
+    margin-top: 1%;
+}
+
+
+ul {
+    padding-left: 2%;
+    margin-bottom: 1%;
+}
+
+.duration {
+    font-size: small;
+    margin-bottom: 1%;
+}
