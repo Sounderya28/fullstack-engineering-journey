@@ -41,7 +41,3 @@ A simple single-page CV built using HTML5 and CSS. This project demonstrates sem
 ## 📄 License
 
 This project is created for learning purposes.
-
-## 🔗 Project URL
-
-https://github.com/Sounderya28/fullstack-engineering-journey/tree/develop/01-html-css/tasks/07-single-page-cv
