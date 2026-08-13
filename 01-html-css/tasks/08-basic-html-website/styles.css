@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 5;
+}
+
+.logo-section img {
+    width: 5em;
+    height: 5em;
+}
+
+.nav-items {
+    display: flex;
+    gap: 1em;
+    list-style-type: none;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    scroll-margin-top: 100px;
+}
+
+.work-education {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10%;
+    margin: 2em;
+    scroll-margin-top: 100px;
+}
+
+.projects h2,
+.work h2,
+.education h2,
+.contact h2 {
+    margin-bottom: 1em;
+}
+
+.projects ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.work-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.work-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.company-name {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.work-item a {
+    text-decoration: none;
+    color: blue;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.details ul {
+    margin-left: 15px;
+}
+
+.reviews {
+    margin: 2em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10%;
+    row-gap: 1em;
+    scroll-margin-top: 100px;
+}
+
+.reviews h2 {
+    grid-column: 1/span 3;
+    text-align: center;
+}
+
+.review-item {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 1em;
+}
+
+.review-person {
+    color: gray;
+    margin-top: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em;
+    gap: 1em;
+    scroll-margin-top: 100px;
+}
+
+.form-fields {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 3em;
+    gap: 1em;
+    width: 60vw;
+}
+
+.form-fields input {
+    height: 2em;
+    outline: none;
+    padding: 2px;
+}
+
+.form-fields textarea {
+    height: 5em;
+    outline: none;
+    padding: 2px;
+}
+
+.form-fields button {
+    height: 2.5em;
+    font-weight: bold;
+}
+
+footer {
+    margin: 2em;
+    text-align: center;
+}

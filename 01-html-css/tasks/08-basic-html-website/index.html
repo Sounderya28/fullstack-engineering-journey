@@ -13,5 +13,107 @@
     <link rel="icon" type="image/x-ixon" href="./assets/favicon.ico" />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body></body>
+  <body>
+    <nav>
+      <div class="logo-section">
+        <img src="./assets/logo.jpg" alt="logo" />
+        <p>Your Name</p>
+      </div>
+      <ul class="nav-items">
+        <a href="#header"><li>Home /</li></a>
+        <a href="#work-education"><li>Projects /</li></a>
+        <a href="#reviews"><li>Articles /</li></a>
+        <a href="#contact"><li>Contact</li></a>
+      </ul>
+    </nav>
+    <header id="header">
+      <h1>Frontend Developer</h1>
+      <p>html only with proper layout, no styling</p>
+    </header>
+    <section class="work-education" id="work-education">
+      <article class="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>HTML Only Portfolio</li>
+          <li>Calculator</li>
+          <li>Quiz App</li>
+          <li>Countdown Timer</li>
+          <li>Product Upcoming Page</li>
+        </ul>
+      </article>
+      <article class="work">
+        <h2>Work Experience</h2>
+        <div class="work-items">
+          <div class="work-item">
+            <p class="company-name">roadmap.sh</p>
+            <p>Solved all the frontend projects</p>
+            <a href="https://roadmap.sh/projects">Visit my Profile</a>
+          </div>
+          <div class="work-item">
+            <p class="company-name">Opensource Work</p>
+            <p>
+              Contributed to 50 opensource projects. Made my own projects with
+              200 Github stars.
+            </p>
+            <a href="https://github.com/Sounderya28">Visit my GitHub Profile</a>
+          </div>
+        </div>
+      </article>
+      <article class="education">
+        <h2>Education</h2>
+        <div class="details">
+          <p>
+            Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organised 30
+            sessions.
+          </p>
+          <p>Courses I took:</p>
+          <ul>
+            <li>Object Oriented Programming</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Web Enginerring</li>
+            <li>Artificial Intelligence</li>
+            <li>Human Computer Interaction</li>
+            <li>Computer Graphics</li>
+            <li>Database Management Systems</li>
+            <li>Distributed Database Systems</li>
+            <li>Discreet Mathematics</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+    <section class="reviews" id="reviews">
+      <h2>Reviews from my teachers</h2>
+      <div class="review-item">
+        <p class="review">
+          John was a brilliant student; always stood out with his assignments.
+        </p>
+        <p class="review-person">John Doe<br />Assitant Professor</p>
+      </div>
+      <div class="review-item">
+        <p class="review">
+          John was a brilliant student; always stood out with his assignments.
+        </p>
+        <p class="review-person">John Doe<br />Assitant Professor</p>
+      </div>
+      <div class="review-item">
+        <p class="review">
+          John was a brilliant student; always stood out with his assignments.
+        </p>
+        <p class="review-person">John Doe<br />Assitant Professor</p>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2>Contact Form</h2>
+      <div class="form-fields">
+        <label for="name">Name</label
+        ><input type="text" id="name" name="name" required />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message</label>
+        <textarea id="message" name="message"></textarea>
+        <button type="submit">Submit</button>
+      </div>
+    </section>
+    <footer>© All rights reserved 2026</footer>
+  </body>
 </html>
