@@ -8,8 +8,7 @@ A simple single-page CV built using HTML5 and CSS. This project demonstrates sem
 07-single-page-cv/
 ├── assets/
 │   └── favicon.ico
-├── Requirements/
-│   └── Screenshot 2026-07-28 063218.png
+├── output.png
 ├── index.html
 ├── styles.css
 └── README.md
