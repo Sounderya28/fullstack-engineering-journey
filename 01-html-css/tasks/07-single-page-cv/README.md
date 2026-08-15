@@ -2,6 +2,8 @@
 
 A simple single-page CV built using HTML5 and CSS. This project demonstrates semantic HTML, SEO meta tags, Open Graph (OG) tags, and a favicon.
 
+https://roadmap.sh/projects/single-page-cv
+
 ## 📁 Project Structure
 
 ```
