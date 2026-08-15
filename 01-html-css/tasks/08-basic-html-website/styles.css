@@ -202,22 +202,13 @@ footer {
     }
 
     .review-item {
-        margin-left: 3em;
-        margin-right: 3em;
+        width: 80%;
+        align-self: center;
     }
 
-    header {
-        scroll-margin-top: 160px;
-    }
-
-    .work-education {
-        scroll-margin-top: 160px;
-    }
-
-    .reviews {
-        scroll-margin-top: 160px;
-    }
-
+    header,
+    .reviews,
+    .work-education,
     .contact {
         scroll-margin-top: 160px;
     }
