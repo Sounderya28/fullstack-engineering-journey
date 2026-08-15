@@ -10,7 +10,7 @@
     <meta property="og:title" content="Basic HTML website" />
     <meta property="og:type" content="Website" />
     <title>Basic HTML Website</title>
-    <link rel="icon" type="image/x-ixon" href="./assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -20,10 +20,16 @@
         <p>Your Name</p>
       </div>
       <ul class="nav-items">
-        <a href="#header"><li>Home /</li></a>
-        <a href="#work-education"><li>Projects /</li></a>
-        <a href="#reviews"><li>Articles /</li></a>
-        <a href="#contact"><li>Contact</li></a>
+        <li><a href="#header">Home / </a></li>
+        <li>
+          <a href="#work-education"><li>Projects /</li></a>
+        </li>
+        <li>
+          <a href="#reviews"><li>Articles /</li></a>
+        </li>
+        <li>
+          <a href="#contact"><li>Contact</li></a>
+        </li>
       </ul>
     </nav>
     <header id="header">
@@ -70,13 +76,13 @@
           <ul>
             <li>Object Oriented Programming</li>
             <li>Data Structures and Algorithms</li>
-            <li>Web Enginerring</li>
+            <li>Web Engineering</li>
             <li>Artificial Intelligence</li>
             <li>Human Computer Interaction</li>
             <li>Computer Graphics</li>
             <li>Database Management Systems</li>
             <li>Distributed Database Systems</li>
-            <li>Discreet Mathematics</li>
+            <li>Discret Mathematics</li>
           </ul>
         </div>
       </article>
@@ -87,24 +93,24 @@
         <p class="review">
           John was a brilliant student; always stood out with his assignments.
         </p>
-        <p class="review-person">John Doe<br />Assitant Professor</p>
+        <p class="review-person">John Doe<br />Assistant Professor</p>
       </div>
       <div class="review-item">
         <p class="review">
           John was a brilliant student; always stood out with his assignments.
         </p>
-        <p class="review-person">John Doe<br />Assitant Professor</p>
+        <p class="review-person">John Doe<br />Assistant Professor</p>
       </div>
       <div class="review-item">
         <p class="review">
           John was a brilliant student; always stood out with his assignments.
         </p>
-        <p class="review-person">John Doe<br />Assitant Professor</p>
+        <p class="review-person">John Doe<br />Assistant Professor</p>
       </div>
     </section>
     <section class="contact" id="contact">
       <h2>Contact Form</h2>
-      <div class="form-fields">
+      <form class="form-fields" method="post" action="/submit">
         <label for="name">Name</label
         ><input type="text" id="name" name="name" required />
         <label for="email">Email</label>
@@ -112,7 +118,7 @@
         <label for="message">Message</label>
         <textarea id="message" name="message"></textarea>
         <button type="submit">Submit</button>
-      </div>
+      </form>
     </section>
     <footer>© All rights reserved 2026</footer>
   </body>

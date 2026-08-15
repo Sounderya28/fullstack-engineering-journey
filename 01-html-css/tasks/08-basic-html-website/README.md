@@ -1,6 +1,6 @@
 # Basic HTML Website
 
-A simple multi-page website built using HTML5 and CSS. This project demonstrates semantic HTML, multiple web sections, navigation, SEO meta tags, and a contact form.
+A simple multi-section website built using HTML5 and CSS. This project demonstrates semantic HTML, multiple web sections, navigation, SEO meta tags, and a contact form.
 
 ## 📁 Project Structure
 
@@ -33,7 +33,7 @@ A simple multi-page website built using HTML5 and CSS. This project demonstrates
 ## 📚 Learning Outcomes
 
 - Build a semantic HTML website
-- Create a multi-page website structure
+- Create a multi-section website structure
 - Add SEO meta tags
 - Create HTML forms
 - Organize project files for scalability
