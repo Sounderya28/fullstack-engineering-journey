@@ -164,3 +164,61 @@ footer {
     margin: 2em;
     text-align: center;
 }
+
+@media screen and (max-width:640px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-section p {
+        margin-bottom: 1em;
+    }
+
+    .work-education {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 2em;
+        text-align: center;
+    }
+
+    .work-items {
+        text-align: left;
+    }
+
+    .details ul,
+    .details p:nth-child(2) {
+        text-align: left;
+    }
+
+    .reviews {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .review-item {
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    header {
+        scroll-margin-top: 160px;
+    }
+
+    .work-education {
+        scroll-margin-top: 160px;
+    }
+
+    .reviews {
+        scroll-margin-top: 160px;
+    }
+
+    .contact {
+        scroll-margin-top: 160px;
+    }
+}
