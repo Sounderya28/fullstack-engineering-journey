@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.label-text {
+    display: inline-block;
+    width: 100px
+}
+
+label input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 10px;
+    align-self: self-start;
+}
+
+button {
+    align-self: start;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:640px) {
+
+    label input[type="text"],
+    input[type="email"],
+    select,
+    textarea {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .label-text {
+        margin-bottom: 5px;
+    }
+}
