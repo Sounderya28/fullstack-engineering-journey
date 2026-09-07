@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card with new badge</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        position: relative;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+        gap: 10px;
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      .new {
+        position: absolute;
+        right: -1.5em;
+        top: -1.5em;
+        color: white;
+        background-color: red;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: x-small;
+      }
+      .image {
+        object-fit: contain;
+        background-color: gray;
+        border-radius: 10px;
+      }
+      img {
+        width: 80px;
+        height: 80px;
+      }
+      p {
+        align-self: self-start;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p class="new">New</p>
+      <div class="image">
+        <img src="./assets/headphones.png" alt="headphones" />
+      </div>
+      <p class="name">Wired Headphones</p>
+      <p class="cost">$99</p>
+    </div>
+  </body>
+</html>
