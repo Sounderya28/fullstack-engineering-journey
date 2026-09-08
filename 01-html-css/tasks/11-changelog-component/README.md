@@ -5,7 +5,7 @@ A simple responsive changelog component built using HTML5 and CSS3. This project
 **## 📁 Project Structure**
 
 ```text
-10-changelog-component/
+11-changelog-component/
 
 ├── assets/
 │   └── favicon.ico
