@@ -5,7 +5,7 @@ A simple pricing comparison page built using a semantic and accessible HTML tabl
 ## 📁 Project Structure
 
 ```text
-08-pricing-comparison-table/
+09-pricing-comparison-table/
 ├── assets/
 │   └── favicon.ico
 ├── output.png
