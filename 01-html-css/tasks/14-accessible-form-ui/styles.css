@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    margin: 20px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.password-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.password-input input {
+    border: none;
+    outline: none;
+}
+
+.name,
+.email {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name input,
+.email input {
+    height: 25px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.error {
+    color: red;
+}
+
+input:focus {
+    border: 1px solid brown;
+    outline-color: brown;
+}
