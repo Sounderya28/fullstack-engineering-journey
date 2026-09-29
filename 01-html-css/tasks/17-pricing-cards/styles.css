@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.plan-name,
+.plan-cost,
+.plan-details {
+    text-align: center;
+}
+
+.basic-plan,
+.pro-plan,
+.business-plan {
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    min-height: 450px;
+}
+
+li {
+    list-style: none;
+    list-style-position: inside;
+}
+
+li::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url("./assets/check-mark.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+}
+
+.cost {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.plan-cost {
+    margin: 10px 0;
+}
+
+.plan-details {
+    margin: 10px 30px;
+}
+
+hr {
+    margin: 10px 30px 10px;
+    border: 1px solid black;
+}
+
+ul {
+    margin-left: 30px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.plan-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: auto;
+}
+
+.basic-plan:hover,
+.pro-plan:hover,
+.business-plan:hover {
+    box-shadow: 3px 3px rgb(216, 203, 203);
+}
+
+.pro-plan {
+    position: relative;
+}
+
+.recommend {
+    position: absolute;
+    border: 1px solid black;
+    background-color: rgb(241, 80, 80);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.basic-plan:hover>.plan-cost span,
+.pro-plan:hover>.plan-cost span,
+.business-plan:hover>.plan-cost span {
+    color: rgb(241, 80, 80);
+}
+
+.basic-plan:hover>.plan-button,
+.pro-plan:hover>.plan-button,
+.business-plan:hover>.plan-button {
+    background-color: rgb(241, 80, 80);
+    color: white;
+}
+
+
+@media screen and (max-width:640px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .basic-plan,
+    .pro-plan,
+    .business-plan {
+        min-height: 100px;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:640px) {
+
+    .basic-plan,
+    .pro-plan,
+    .business-plan {
+        min-height: 470px;
+    }
+}
