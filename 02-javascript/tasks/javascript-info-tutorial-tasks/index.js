@@ -102,11 +102,46 @@
 
 // rewrite 'if..else' into '?'
 
-let message =
-  login == "Employee"
-    ? "Hello"
-    : login == "Director"
-      ? "Greetings"
-      : login == ""
-        ? "No login"
-        : "";
+// let message =
+//   login == "Employee"
+//     ? "Hello"
+//     : login == "Director"
+//       ? "Greetings"
+//       : login == ""
+//         ? "No login"
+//         : "";
+
+// Logical operators
+
+// Check the range between
+
+// if (age >= 14 && age <= 90) {
+// }
+
+// Check the range outside
+
+// if (!(age >= 14 && age <= 90)) {
+// }
+
+// if (age < 14 || age > 90) {
+// }
+
+// Check the login
+
+// let username = prompt("Enter Username", "");
+// let password;
+
+// if (username === "Admin") {
+//   password = prompt("Enter Password", "");
+//   if (password === "TheMaster") {
+//     alert("Welcome!");
+//   } else if (password === null || password === "") {
+//     alert("Cancelled");
+//   } else {
+//     alert("Wrong Password");
+//   }
+// } else if (username === null || username === "") {
+//   alert("Cancelled");
+// } else {
+//   alert("I don't know you.");
+// }
