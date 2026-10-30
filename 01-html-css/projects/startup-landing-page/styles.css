@@ -14,7 +14,8 @@ nav {
     color: white;
 }
 
-header {
+header,
+#about {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -62,31 +63,21 @@ header {
     margin-left: 10px;
 }
 
-.header-img img {
-    width: 25rem;
-    height: 25rem;
-    border-radius: 5%;
-}
-
-#about {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 0 9% 9% 9%;
-    gap: 5%;
-}
-
+.header-img img,
 .about-left img {
     width: 25rem;
     height: 25rem;
     border-radius: 5%;
 }
 
+#about {
+    padding: 0 9% 9% 9%;
+}
+
 .mission-container {
     margin-top: 5%;
     background-color: var(--primary-color);
     padding: 10px;
-    /* border-radius: 5%; */
 }
 
 .mission-stmt {
@@ -107,7 +98,6 @@ header {
     font-size: 1.1rem;
     color: var(--subtext-color);
     margin-top: 5%;
-    margin-right: 5%
 }
 
 .key-values p {
@@ -122,9 +112,6 @@ header {
     list-style-type: square;
 }
 
-/* .key-values li::before {
-    content: url("./assets/tick.png");
-} */
 
 @media screen and (max-width:990px) {
     header {
