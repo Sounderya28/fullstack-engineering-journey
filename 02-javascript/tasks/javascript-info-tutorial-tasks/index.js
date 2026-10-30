@@ -145,3 +145,32 @@
 // } else {
 //   alert("I don't know you.");
 // }
+
+// loops
+
+// Output even numbers in the loop
+
+// for (let i = 2; i <= 10; i += 2) {
+//   alert(i);
+// }
+
+// Replace "for" with "while"
+
+// for (let i = 0; i < 3; i++) {
+//   alert(`number ${i}!`);
+// }
+
+// let i = 0;
+
+// while (i < 3) {
+//   alert(`number ${i}!`);
+//   i++;
+// }
+
+// Repeat until the input is correct
+
+// let num;
+
+// do {
+//   num = +prompt("Enter a number", 0);
+// } while (num <= 100 && num);
