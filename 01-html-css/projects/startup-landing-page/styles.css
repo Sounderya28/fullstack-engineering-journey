@@ -1,0 +1,213 @@
+:root {
+    --primary-color: #215C5C;
+    --subtext-color: rgb(67, 67, 67);
+    --secondary-color: rgb(233, 248, 238);
+}
+
+nav {
+    margin: 0 9%;
+}
+
+.btn-custom,
+.btn-custom:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+header,
+#about {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 9%;
+    gap: 5%;
+}
+
+.header-content h2 {
+    font-size: 3rem;
+}
+
+.header-describe {
+    font-size: 1.2rem;
+    color: var(--subtext-color);
+    margin-top: 5%;
+}
+
+.header-tag {
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    padding: 2px 5px;
+    color: var(--primary-color);
+    font-size: small;
+    width: fit-content;
+}
+
+.header-content button {
+    outline: none;
+    margin-top: 5%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.get-started-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: 1px solid var(--primary-color);
+    font-weight: 600;
+}
+
+.learn-more-btn {
+    background-color: transparent;
+    color: rgb(0, 30, 0);
+    border: 1px solid rgb(222, 221, 221);
+    margin-left: 10px;
+}
+
+.header-img img,
+.about-left img {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 5%;
+}
+
+#about {
+    padding: 0 9% 9% 9%;
+}
+
+.mission-container {
+    margin-top: 5%;
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.mission-stmt {
+    color: rgb(223, 223, 186)
+}
+
+.mission-desc {
+    color: white;
+    margin-right: 10%;
+    font-size: large;
+}
+
+.about-right h3 {
+    font-size: 2rem;
+}
+
+.about-desc {
+    font-size: 1.1rem;
+    color: var(--subtext-color);
+    margin-top: 5%;
+}
+
+.key-values p {
+    font-weight: bold;
+}
+
+.key-values ul {
+    display: flex;
+    gap: 10%;
+    flex-wrap: wrap;
+    color: var(--subtext-color);
+    list-style-type: square;
+}
+
+
+@media screen and (max-width:990px) {
+
+    header,
+    #about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .header-img img,
+    .about-left img {
+        width: 100%;
+        height: 100%;
+        margin-top: 5%;
+    }
+
+    .about-right {
+        order: 1;
+    }
+
+    .about-left {
+        order: 2
+    }
+
+    .key-values p {
+        margin-top: 2%;
+    }
+
+    .about-left img {
+        margin-top: 2%;
+    }
+}
+
+@media screen and (min-width:1180px) {
+    .header-content h2 {
+        font-size: 3.2rem;
+    }
+
+    .header-describe,
+    .about-desc,
+    .key-values ul {
+        font-size: 1.2rem;
+    }
+
+    .header-content button {
+        padding: 15px;
+        font-size: medium;
+    }
+
+    .about-right h3 {
+        font-size: 2.3rem;
+    }
+
+    .header-img img,
+    .about-left img {
+        width: 35rem;
+        height: 35rem;
+    }
+
+    .key-values p {
+        margin-top: 7%;
+    }
+}
+
+@media screen and (min-width:2100px) {
+    header {
+        padding: 9% 20%;
+        gap: 7%;
+    }
+
+    .header-describe,
+    .about-desc,
+    .key-values ul {
+        font-size: 1.7rem;
+    }
+
+    .header-content button {
+        padding: 20px;
+        font-size: large;
+    }
+
+    .header-tag {
+        font-size: medium;
+    }
+
+    #about {
+        padding: 0 20% 9% 20%;
+        gap: 7%;
+    }
+
+    .key-values p {
+        font-size: 1.5rem;
+    }
+}
