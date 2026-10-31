@@ -78,6 +78,7 @@ header,
     margin-top: 5%;
     background-color: var(--primary-color);
     padding: 10px;
+    border-radius: 5%;
 }
 
 .mission-stmt {
@@ -114,7 +115,9 @@ header,
 
 
 @media screen and (max-width:990px) {
-    header {
+
+    header,
+    #about {
         display: flex;
         flex-direction: column;
     }
@@ -123,19 +126,38 @@ header,
         font-size: 2.5rem;
     }
 
-    .header-img img {
+    .header-img img,
+    .about-left img {
         width: 100%;
         height: 100%;
-        margin-top: 9%;
+        margin-top: 5%;
+    }
+
+    .about-right {
+        order: 1;
+    }
+
+    .about-left {
+        order: 2
+    }
+
+    .key-values p {
+        margin-top: 2%;
+    }
+
+    .about-left img {
+        margin-top: 2%;
     }
 }
 
-@media screen and (min-width:1025px) {
+@media screen and (min-width:1180px) {
     .header-content h2 {
         font-size: 3.2rem;
     }
 
-    .header-describe {
+    .header-describe,
+    .about-desc,
+    .key-values ul {
         font-size: 1.2rem;
     }
 
@@ -144,19 +166,30 @@ header,
         font-size: medium;
     }
 
-    .header-img img {
+    .about-right h3 {
+        font-size: 2.3rem;
+    }
+
+    .header-img img,
+    .about-left img {
         width: 35rem;
         height: 35rem;
     }
+
+    .key-values p {
+        margin-top: 7%;
+    }
 }
 
-@media screen and (min-width:2000px) {
+@media screen and (min-width:2100px) {
     header {
         padding: 9% 20%;
         gap: 7%;
     }
 
-    .header-describe {
+    .header-describe,
+    .about-desc,
+    .key-values ul {
         font-size: 1.7rem;
     }
 
@@ -167,5 +200,14 @@ header,
 
     .header-tag {
         font-size: medium;
+    }
+
+    #about {
+        padding: 0 20% 9% 20%;
+        gap: 7%;
+    }
+
+    .key-values p {
+        font-size: 1.5rem;
     }
 }
